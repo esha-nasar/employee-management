@@ -1,0 +1,70 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.* 
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.tmp
+*.temp
+~*
+
+# Coverage directory
+coverage/
+
+# GraphQL introspection schema
+schema.json
+schema.graphql
+
+# Optional npm cache directory
+.npm
+
+# Miscellaneous
+*.bak
+*.orig
+
+# Ignore database files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Secrets
+.secret
+*.key
+*.crt
